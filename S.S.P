@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.S.P Skate Scrape Protector - Protect Your Ankles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003d80;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e9ecef;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .feature {
+            flex: 1 1 300px;
+            margin: 10px;
+            padding: 15px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>S.S.P Skate Scrape Protector</h1>
+        <p>Your Ultimate Solution for Ankle and Leg Protection</p>
+    </header>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Protect Your Ankles and Enjoy Your Game</h2>
+            <p>Say goodbye to cuts, rashes, and discomfort with S.S.P Skate Scrape Protector!</p>
+            <img src="hockey-skate-protector.jpg" alt="Hockey skate ankle protector">
+        </section>
+        <section id="features" class="features">
+            <div class="feature">
+                <h3>Durable Material</h3>
+                <p>Made with high-quality, lightweight, and breathable materials.</p>
+            </div>
+            <div class="feature">
+                <h3>Easy to Use</h3>
+                <p>Simple to put on and fits securely over your skates.</p>
+            </div>
+            <div class="feature">
+                <h3>Universal Fit</h3>
+                <p>Designed to fit all skate sizes and types.</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About S.S.P Skate Scrape Protector</h2>
+            <p>S.S.P Skate Scrape Protector was designed with hockey players in mind to prevent injuries caused by skate contact with your ankles and legs. Our goal is to keep you comfortable and focused on the game.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at <a href="mailto:support@skatescrapeprotector.com">support@skatescrapeprotector.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 S.S.P Skate Scrape Protector. All rights reserved.</p>
+    </footer>
+</body>
+</html>
